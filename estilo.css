@@ -1,16 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Merienda:wght@700&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Satisfy&family=Tiro+Devanagari+Marathi:ital@1&display=swap');
 *{
-    padding: 0;
-    margin: 0;
+        margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
     font-size: 14px
 }
 
+
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243,243,243);
+    background-color: #1e192c;
     margin: 0;
     padding: 0;
     display: flex;
@@ -43,10 +44,17 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffffff;
+    background-color:  white;
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
+    border-radius: 2%;
+}
+
+h6{
+    font-size: 40px;
+    color:#CC0000;
+    font-family: 'EB Garamond', serif;
 }
 
 .group:nth-child(1){
@@ -66,13 +74,13 @@ body{
 }
 
 .instagram-login{
-    background-color: #0095f6;
+    background-color: #CC0000;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
 }
 .instagram-logout{
-    color: #0095f6;
+    color: #CC0000;
     margin-top: 1rem;
 }
 
@@ -80,7 +88,7 @@ body{
     color: rgb(160, 160, 160);
 }
 .link-blue{
-    color: #0095f6;
+    color:  #1e192c;
 }
 .get-the-app{
     display: flex;
@@ -89,6 +97,7 @@ body{
     justify-content: center;
     width: 100%;
     padding: 1.3rem 0;
+    color: white;
 }
 .download{
     display: flex;
@@ -98,10 +107,11 @@ body{
     padding: 1rem;
 }
 .app-download{
-    height: 3rem;
+    height: 4rem;
     width: 10rem;
     background-size: cover;
     align-items: center;
+
 }
 
 .app-download:nth-child(1) {
